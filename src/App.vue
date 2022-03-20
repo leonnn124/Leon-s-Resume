@@ -3,23 +3,21 @@
 </template>
 
 <script>
-import MyResume from './components/MyResume.vue'
+import MyResume from "./components/MyResume.vue";
 
 export default {
-  name: 'App',
+  name: "App",
   components: {
-    MyResume
-  }
-}
+    MyResume,
+  },
+};
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+@import "./assets/reset.css";
+@import url("https://fonts.googleapis.com/css?family=Nunito:400,700");
+
+body {
+  font-family: "Nunito", sans-serif;
 }
 </style>
