@@ -7,6 +7,7 @@ module.exports = {
       p: "391px",
       s: "450px",
       sm: "640px",
+      sd: "700px",
       md: "768px",
       lg: "1024px",
       xl: "1280px",
@@ -22,6 +23,9 @@ module.exports = {
       // => @media (max-width: 1023px) { ... }
 
       "-md": { max: "767px" },
+      // => @media (max-width: 767px) { ... }
+
+      "-sd": { max: "700px" },
       // => @media (max-width: 767px) { ... }
 
       "-sm": { max: "639px" },

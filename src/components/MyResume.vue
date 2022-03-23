@@ -1,6 +1,6 @@
 <template>
   <div>
-    <!-- 待修改 // bar展開可點外面收起 大頭照-->
+    <!-- 待修改 // bar展開可點外面收起 大頭照 整理code Q_Q-->
     <!-- 待增加 // home的往下小箭頭 滾動動畫-->
     <nav class="navbar fixed bg-transparent w-full py-4 z-50">
       <div class="inner-width flex items-center justify-between top-0">
@@ -126,11 +126,11 @@
             class="timeline-item px-2 pl-1 pr-14 float-left mb-8 -mr-3 ml-auto w-full"
           >
             <div
-              class="container mt-0 float-right w-1/2 relative pr-10 pl-0 text-left min-h-14 timeline-box-left hidden"
+              class="container float-left w-1/2 relative pr-10 pl-0 text-right timeline-box-right"
             >
-              <div class="table w-full box-border text-left">
+              <div class="table w-full box-border md:text-right">
                 <h3 class="text-golden">十二韻 - 晚班主管 / 工讀</h3>
-                <p class="text-neutral-300">
+                <p class="text-neutral-400">
                   <br />
                   有許多點子改善工作流程、節省精力和時間<br />
                   樂於與公司建立聯繫，維持良好溝通<br />
@@ -139,38 +139,13 @@
                 </p>
               </div>
               <div
-                class="box-circle-r bg-golden w-5 h-5 absolute top-4 rounded-full mt-4 z-10"
+                class="box-circle-l bg-golden w-5 h-5 absolute top-4 md:right-0 left-auto rounded-full mt-4 z-10"
               ></div>
               <div
-                class="box-tale-r content-[''] absolute w-0 h-0 box-border"
+                class="box-tale-l content-[''] absolute md:-right-3 w-0 h-0 box-border"
               ></div>
               <div
-                class="box-date-r text-left -left-36 -pl-16 absolute text-golden text-sm top-8 w-full"
-              >
-                Feb 2022
-              </div>
-            </div>
-            <div
-              class="container float-left w-1/2 relative pr-10 pl-0 text-right min-h-14 timeline-box-right"
-            >
-              <div class="table w-full box-border text-right">
-                <h3 class="text-golden">十二韻 - 晚班主管 / 工讀</h3>
-                <p class="text-neutral-300">
-                  <br />
-                  有許多點子改善工作流程、節省精力和時間<br />
-                  樂於與公司建立聯繫，維持良好溝通<br />
-                  即使身為主管，仍向任何一位同事學習<br />
-                  分享過往工作心得，讓同事一起進步與成長
-                </p>
-              </div>
-              <div
-                class="box-circle-l bg-golden w-5 h-5 absolute top-4 right-0 left-auto rounded-full mt-4 z-10"
-              ></div>
-              <div
-                class="box-tale-l content-[''] absolute -right-3 w-0 h-0 box-border"
-              ></div>
-              <div
-                class="box-date-l text-right -right-36 pl-16 absolute text-golden text-sm top-8 w-full"
+                class="box-date-l text-right -right-36 md:pl-16 absolute text-golden text-sm top-8 w-full"
               >
                 Aug 2019
               </div>
@@ -180,11 +155,11 @@
             class="timeline-item px-2 pl-10 pr-1 float-left mb-8 -mr-3 ml-auto w-full"
           >
             <div
-              class="container mt-0 float-right w-1/2 relative pr-10 pl-0 text-left min-h-14 timeline-box-left"
+              class="container mt-0 float-right w-1/2 relative pr-10 pl-0 text-left timeline-box-left"
             >
               <div class="table w-full box-border text-left">
                 <h3 class="text-golden">實習 / 創科資訊</h3>
-                <p class="text-neutral-300">
+                <p class="text-neutral-400">
                   <br />
                   Web前後端、App前端開發<br />
                   版本控制、資訊安全<br />
@@ -199,42 +174,22 @@
                 class="box-tale-r content-[''] absolute w-0 h-0 box-border"
               ></div>
               <div
-                class="box-date-r text-left -left-36 -pl-16 absolute text-golden text-sm top-8 w-full"
+                class="box-date-r text-left md:-left-36 absolute text-golden text-sm top-8 w-full"
               >
                 Feb 2022
               </div>
-            </div>
-            <div
-              class="container mt-0 float-right w-1/2 relative pr-10 pl-0 text-left min-h-14 timeline-box-right hidden"
-            >
-              <div class="table w-full box-border text-left">
-                <h3 class="text-golden">實習 / 創科資訊</h3>
-                <p class="text-neutral-300">
-                  <br />
-                  Web前後端、App前端開發<br />
-                  版本控制、資訊安全<br />
-                  敏捷軟體開發、測試<br />
-                  DevOps建置與部署<br />
-                </p>
-              </div>
-              <div
-                class="box-circle-r bg-golden w-5 h-5 absolute top-4 rounded-full mt-4 z-10"
-              ></div>
-              <div
-                class="box-tale-r content-[''] absolute w-0 h-0 box-border"
-              ></div>
-              <div class="box-date-r">Feb 2022</div>
             </div>
           </div>
           <div
             class="timeline-item px-2 pl-1 pr-14 float-left mb-8 -mr-3 ml-auto w-full"
           >
             <div
-              class="container mt-0 float-right w-1/2 relative pr-10 pl-0 text-left min-h-14 timeline-box-left hidden"
+              class="container mt-0 float-left w-1/2 relative pr-10 pl-0 text-right timeline-box-right"
             >
-              <div class="table w-full box-border text-left">
+              <div class="table w-full box-border md:text-right">
                 <h3 class="text-golden">Experiences</h3>
-                <p class="text-neutral-300">
+                <p class="text-neutral-400">
+                  <br />
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Tempore ea obcaecati, totam natus numquam corrupti expedita
                   repellendus eum omnis quibusdam exercitationem veritatis, ab
@@ -242,37 +197,13 @@
                 </p>
               </div>
               <div
-                class="box-circle-r bg-golden w-5 h-5 absolute top-4 rounded-full mt-4 z-10"
+                class="box-circle-l bg-golden w-5 h-5 absolute top-4 md:right-0 left-auto rounded-full mt-4 z-10"
               ></div>
               <div
-                class="box-tale-r content-[''] absolute w-0 h-0 box-border"
+                class="box-tale-l content-[''] absolute md:-right-3 w-0 h-0 box-border"
               ></div>
               <div
-                class="box-date-r text-left -left-36 -pl-16 absolute text-golden text-sm top-8 w-full"
-              >
-                Feb 2022
-              </div>
-            </div>
-            <div
-              class="container mt-0 float-left w-1/2 relative pr-10 pl-0 text-right min-h-14 timeline-box-right"
-            >
-              <div class="table w-full box-border text-right">
-                <h3 class="text-golden">Experiences</h3>
-                <p class="text-neutral-300">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Tempore ea obcaecati, totam natus numquam corrupti expedita
-                  repellendus eum omnis quibusdam exercitationem veritatis, ab
-                  magni sapiente vel, sit saepe repellat dignissimos?
-                </p>
-              </div>
-              <div
-                class="box-circle-l bg-golden w-5 h-5 absolute top-4 right-0 left-auto rounded-full mt-4 z-10"
-              ></div>
-              <div
-                class="box-tale-l content-[''] absolute -right-3 w-0 h-0 box-border"
-              ></div>
-              <div
-                class="box-date-l text-right -right-36 pl-16 absolute text-golden text-sm top-8 w-full"
+                class="box-date-l text-right -right-36 md:pl-16 absolute text-golden text-sm top-8 w-full"
               >
                 Future ...
               </div>
@@ -326,7 +257,8 @@ $(document).ready(function () {
 
 nav,
 .navbar-menu a,
-button .bars {
+button .bars,
+.container {
   transition: 0.3s linear;
 }
 
@@ -369,7 +301,7 @@ button .bars {
   background: url(../assets/experience.png) no-repeat center;
   background-size: cover;
   background-attachment: fixed;
-  height: 1200px;
+  min-height: 100%;
 }
 
 .timeline-box-left {
@@ -412,19 +344,21 @@ button .bars {
 }
 
 .exp-timeline::after {
+  @apply md:left-1/2;
   position: absolute;
-  left: 50%;
   top: 100px;
   display: block;
   content: " ";
   width: 5px;
-  height: 100%;
+  height: 80%;
   margin-left: -2.5px;
   margin-top: 56px;
   z-index: 5;
   border-radius: 5px;
   background: rgba(172, 172, 172, 0.4);
+  transition: 0.3s linear;
 }
+
 #Project {
   height: 500px;
   min-height: 500px;
@@ -499,6 +433,34 @@ button .bars {
   #About {
     min-height: 100%;
   }
+  .timeline-item {
+    @apply px-2 pr-16 float-right mb-8 -mr-3 ml-auto w-10/12;
+    transition: 0.3s linear;
+  }
+  .container {
+    @apply mt-0 md:w-1/2 relative pr-10 pl-0 text-left timeline-box-left w-full;
+  }
+  .box-circle-l {
+    @apply bg-golden w-5 h-5 absolute top-4 rounded-full mt-4 z-10;
+    left: -15.5%;
+  }
+  .box-circle-r {
+    left: -20.5%;
+  }
+  .box-tale-l {
+    @apply content-[''] absolute w-0 h-0 box-border left-0;
+  }
+  .box-date-l {
+    @apply text-left left-5 absolute text-golden text-sm top-8 w-full;
+  }
+  .exp-timeline::after {
+    margin-left: 63px;
+    transition: 0.3s linear;
+  }
+  .timeline-box-left {
+    @apply py-2 px-5 table relative mb-8 -mr-6 ml-auto z-30;
+    box-shadow: 15px 15px 23px 1px rgba(216, 174, 127, 42%);
+  }
 }
 
 @screen -s {
@@ -507,6 +469,22 @@ button .bars {
   }
   .navbar-menu > .active {
     @apply flex justify-center ml-20;
+  }
+}
+
+@screen -sd {
+  .exp-timeline::after {
+    display: none;
+    transition: 0.3s linear;
+  }
+  .box-circle-l,
+  .box-circle-r {
+    display: none;
+    transition: 0.3s linear;
+  }
+  .timeline-item {
+    @apply w-full;
+    transition: 0.3s linear;
   }
 }
 </style>
