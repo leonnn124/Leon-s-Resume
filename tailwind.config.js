@@ -4,6 +4,7 @@ module.exports = {
   darkMode: "media", // or 'class'
   theme: {
     screens: {
+      p: "391px",
       s: "450px",
       sm: "640px",
       md: "768px",
@@ -57,6 +58,7 @@ module.exports = {
       fuchsia: colors.fuchsia,
       pink: colors.pink,
       rose: colors.rose,
+      golden: "#d5ae7f",
     }),
     columns: {
       auto: "auto",

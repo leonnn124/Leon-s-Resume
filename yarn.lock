@@ -5842,6 +5842,11 @@ tslib@^2.0.3:
   resolved "https://registry.npmmirror.com/tslib/-/tslib-2.3.1.tgz#e8a335add5ceae51aa261d32a490158ef042ef01"
   integrity sha512-77EbyPPpMz+FRFRuAFlWMtmgUWGe9UOG2Z25NqCwiIjRhOf5iKGuzSe5P2w1laq+FkRy4p+PCuVkJSGkzTEKVw==
 
+tsparticles@^1.42.3:
+  version "1.42.3"
+  resolved "https://registry.yarnpkg.com/tsparticles/-/tsparticles-1.42.3.tgz#9570978a8938a89bd5e087cb42bf3b888ea4ee15"
+  integrity sha512-MlG4Zdr7agzsmmBQVv3XUH8Dm6Wv6cdr9NvA6UXgAEz+PlbRTOtIwg+KNKc2sSFSEqzxgJtrivENtJHaCawbAg==
+
 type-check@^0.4.0, type-check@~0.4.0:
   version "0.4.0"
   resolved "https://registry.npmmirror.com/type-check/-/type-check-0.4.0.tgz#07b8203bfa7056c0657050e3ccd2c37730bab8f1"
