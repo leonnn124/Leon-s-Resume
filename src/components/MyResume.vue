@@ -1,10 +1,10 @@
 <template>
   <div>
     <!-- 待修改 // bar展開可點外面收起 大頭照 整理code Q_Q-->
-    <!-- 待增加 // home的往下小箭頭 滾動動畫-->
+    <!-- 待增加 // home的往下小箭頭 a link滾動動畫-->
     <nav class="navbar fixed bg-transparent w-full py-4 z-50">
       <div class="inner-width flex items-center justify-between top-0">
-        <a href="/" class="Logo w-16 h-11 bg-no-repeat z-50"></a>
+        <a href="#" class="Logo w-16 h-11 bg-no-repeat z-50"></a>
         <button
           class="md:hidden bars block bg-none w-7 border-0 cursor-pointer relative outline-none z-50"
         >
@@ -130,6 +130,7 @@
             >
               <div class="table w-full box-border md:text-right">
                 <h3 class="text-golden">十二韻 - 晚班主管 / 工讀</h3>
+
                 <p class="text-neutral-400">
                   <br />
                   有許多點子改善工作流程、節省精力和時間<br />
@@ -213,7 +214,74 @@
       </div>
     </section>
     <!-- Project -->
-    <section id="Project"></section>
+    <section id="Project">
+      <div class="inner-width">
+        <h1
+          class="section-title text-center pt-12 pb-4 relative text-2xl text-golden"
+        >
+          Project
+        </h1>
+        <div
+          class="divider rounded-md border-t-4 border-neutral-300 border-solid m-auto mb-12"
+        ></div>
+        <div class="project mt-28 owl-carousel owl-theme">
+          <div class="pro-item flex">
+            <img
+              src="../assets/mono.png"
+              alt=""
+              class="pro-img h-24 w-24 m-2"
+            />
+            <div class="pro-text m-4">
+              <h2 class="text-2xl">MonoLuck</h2>
+              <p class="text-lg">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Tenetur autem placeat exercitationem perferendis praesentium ut,
+                odio dicta est iure, explicabo suscipit quae ad. Id obcaecati
+                tempore expedita esse, vitae nostrum?
+              </p>
+              <hr />
+              <p class="float-right italic text-sm">〝 創科資訊 Trunk Studio</p>
+            </div>
+          </div>
+          <div class="pro-item flex">
+            <img
+              src="../assets/mono.png"
+              alt=""
+              class="pro-img h-24 w-24 m-2"
+            />
+            <div class="pro-text m-4">
+              <h2 class="text-2xl">MonoLuck</h2>
+              <p class="text-lg">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Tenetur autem placeat exercitationem perferendis praesentium ut,
+                odio dicta est iure, explicabo suscipit quae ad. Id obcaecati
+                tempore expedita esse, vitae nostrum?
+              </p>
+              <hr />
+              <p>lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            </div>
+          </div>
+          <div class="pro-item flex">
+            <img
+              src="../assets/mono.png"
+              alt=""
+              class="pro-img h-24 w-24 m-2"
+            />
+            <div class="pro-text m-4">
+              <h2 class="text-2xl">MonoLuck</h2>
+              <p class="text-lg">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Tenetur autem placeat exercitationem perferendis praesentium ut,
+                odio dicta est iure, explicabo suscipit quae ad. Id obcaecati
+                tempore expedita esse, vitae nostrum?
+              </p>
+              <hr />
+              <p>lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
     <!-- Education -->
     <section id="Education"></section>
     <!-- Skills -->
@@ -234,6 +302,24 @@ $(document).ready(function () {
   $(window).scroll(function () {
     if (this.scrollY > 20) $(".navbar").addClass("stick");
     else $(".navbar").removeClass("stick");
+  });
+  var owl = $(".owl-carousel");
+  owl.owlCarousel({
+    items: 2,
+    loop: true,
+    margin: 10,
+    autoplay: true,
+    autoplayTimeout: 3500,
+    autoplayHoverPause: true,
+    smartSpeed: 2000,
+    responsive: {
+      0: {
+        items: 1,
+      },
+      768: {
+        items: 2,
+      },
+    },
   });
 });
 </script>
@@ -358,13 +444,18 @@ button .bars,
   background: rgba(172, 172, 172, 0.4);
   transition: 0.3s linear;
 }
+/* ######################################################################################################### */
+
+hr {
+  border-color: #d5ae7f;
+}
 
 #Project {
-  height: 500px;
+  height: 700px;
   min-height: 500px;
-  background: url(../assets/bg.jpg) no-repeat center;
+  background: url(../assets/pro.jpg) no-repeat center;
   background-size: cover;
-  //background-attachment: fixed;
+  background-attachment: fixed;
 }
 
 #Education {
@@ -485,6 +576,15 @@ button .bars,
   .timeline-item {
     @apply w-full;
     transition: 0.3s linear;
+  }
+}
+
+@screen -p {
+  .box-date-l {
+    writing-mode: vertical-rl;
+  }
+  .box-date-r {
+    writing-mode: vertical-rl;
   }
 }
 </style>

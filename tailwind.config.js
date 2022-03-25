@@ -33,6 +33,9 @@ module.exports = {
 
       "-s": { max: "450px" },
       // => @media (max-width: 450px) { ... }
+
+      "-p": { max: "391px" },
+      // => @media (max-width: 391px) { ... }
     },
     colors: ({ colors }) => ({
       inherit: colors.inherit,
