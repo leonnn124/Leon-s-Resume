@@ -12,6 +12,7 @@ module.exports = {
       lg: "1024px",
       xl: "1280px",
       "2xl": "1536px",
+      "owl-sm": "600px",
 
       "-2xl": { max: "1535px" },
       // => @media (max-width: 1535px) { ... }
@@ -36,6 +37,9 @@ module.exports = {
 
       "-p": { max: "391px" },
       // => @media (max-width: 391px) { ... }
+
+      "-owl-lg": { max: "1105px" },
+      // => @media (max-width: 1105px) { ... }
     },
     colors: ({ colors }) => ({
       inherit: colors.inherit,

@@ -1,7 +1,7 @@
 <template>
   <div>
     <!-- 待修改 // bar展開可點外面收起 大頭照 整理code Q_Q-->
-    <!-- 待增加 // home的往下小箭頭 a link滾動動畫-->
+    <!-- 待增加 // home的往下小箭頭 a link滾動動畫(網頁內PAGE互聯) 放連結(link)-->
     <nav class="navbar fixed bg-transparent w-full py-4 z-50">
       <div class="inner-width flex items-center justify-between top-0">
         <a href="#" class="Logo w-16 h-11 bg-no-repeat z-50"></a>
@@ -99,9 +99,7 @@
           />
           <div class="about-text md:flex-1 mx-12">
             <h2 class="text-2xl pb-4 text-neutral-400">Hi ! I'm Leon</h2>
-            <p
-              class="text-lg text-justify justify-between flex-wrap mb-10 text-neutral-400"
-            >
+            <p class="text-lg text-justify justify-between flex-wrap mb-10">
               就讀於國立台中科技大學，對於前端有相當大的興趣，喜歡研究新技術應用在自己的作品中，即便遇到挫折也不會輕易放棄。<br /><br />
               目前於創科資訊實習中，學習前後端設計，測試、開發、部署流程，專案實戰等，
               不定時分享交流資訊技術。
@@ -188,13 +186,10 @@
               class="container mt-0 float-left w-1/2 relative pr-10 pl-0 text-right timeline-box-right"
             >
               <div class="table w-full box-border md:text-right">
-                <h3 class="text-golden">Experiences</h3>
+                <h3 class="text-golden">...</h3>
                 <p class="text-neutral-400">
                   <br />
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Tempore ea obcaecati, totam natus numquam corrupti expedita
-                  repellendus eum omnis quibusdam exercitationem veritatis, ab
-                  magni sapiente vel, sit saepe repellat dignissimos?
+                  ...
                 </p>
               </div>
               <div
@@ -224,70 +219,160 @@
         <div
           class="divider rounded-md border-t-4 border-neutral-300 border-solid m-auto mb-12"
         ></div>
-        <div class="project mt-28 owl-carousel owl-theme">
-          <div class="pro-item flex">
-            <img
-              src="../assets/mono.png"
-              alt=""
-              class="pro-img h-24 w-24 m-2"
-            />
-            <div class="pro-text m-4">
-              <h2 class="text-2xl">MonoLuck</h2>
-              <p class="text-lg">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Tenetur autem placeat exercitationem perferendis praesentium ut,
-                odio dicta est iure, explicabo suscipit quae ad. Id obcaecati
-                tempore expedita esse, vitae nostrum?
+        <div class="project owl-sm:mt-28 owl-carousel owl-theme mt-14">
+          <div class="pro-item owl-sm:flex h-72">
+            <div class="pro-img w-3/12 owl-sm:m-2 mx-auto">
+              <img src="../assets/mono.png" alt="" class="h-32 w-24 m-2" />
+            </div>
+
+            <div class="pro-text owl-sm:m-4 w-9/12 mx-auto -owl-lg:text-center">
+              <h2 class="text-2xl mb-2">
+                <span class="text-golden">MonoLuck</span> 置物櫃登記系統
+              </h2>
+              <p class="text-md mt-4 h-1/3">
+                提供共同空間會員抽取置物櫃號碼之系統<br />
+                可在系統時間內登記、查詢置物櫃<br />
+                截止登記後可查詢抽中的置物櫃號碼
               </p>
-              <hr />
-              <p class="float-right italic text-sm">〝 創科資訊 Trunk Studio</p>
+              <div class="more absolute bottom-0 owl-sm:w-8/12 mx-auto w-9/12">
+                <p class="tech text-sm text-neutral-400">
+                  相關技術<br />React.js&emsp;Material-UI&emsp;Axios&emsp;PHP
+                </p>
+                <hr />
+                <p class="float-right italic text-sm text-golden">
+                  〝 創科資訊 Trunk Studio
+                </p>
+              </div>
             </div>
           </div>
-          <div class="pro-item flex">
-            <img
-              src="../assets/mono.png"
-              alt=""
-              class="pro-img h-24 w-24 m-2"
-            />
-            <div class="pro-text m-4">
-              <h2 class="text-2xl">MonoLuck</h2>
-              <p class="text-lg">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Tenetur autem placeat exercitationem perferendis praesentium ut,
-                odio dicta est iure, explicabo suscipit quae ad. Id obcaecati
-                tempore expedita esse, vitae nostrum?
+          <div class="pro-item owl-sm:flex owl-sm:h-72">
+            <div class="pro-img w-3/12 owl-sm:m-2 mx-auto">
+              <img src="../assets/whEat.png" alt="" class="h-32 w-24 m-2" />
+            </div>
+
+            <div class="pro-text owl-sm:m-4 w-9/12 mx-auto -owl-lg:text-center">
+              <h2 class="text-2xl mb-2">
+                <span class="text-golden">LINEBot</span> 等等要吃什麼啊 (๑´ڡ`๑)
+              </h2>
+              <p class="text-md mt-4 h-1/3">
+                回傳用戶選擇的地區前十大排名美食<br />
+                可選擇美食類型 傳送目前位置 等<br />
+                另可回傳Folium繪製店家位置的地圖給使用者<br />
+                馬上蒐羅全台熱門評價美食
               </p>
-              <hr />
-              <p>lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+              <div class="more absolute bottom-0 owl-sm:w-8/12 mx-auto w-9/12">
+                <p class="tech text-sm text-neutral-400">
+                  相關技術<br />Python&emsp;LINEBot Message API&emsp;Google
+                  Place API&emsp;Django&emsp;Folium
+                </p>
+                <hr />
+                <p class="float-right italic text-sm text-golden">
+                  〝 國立台中科技大學 NUTC
+                </p>
+              </div>
             </div>
           </div>
-          <div class="pro-item flex">
-            <img
-              src="../assets/mono.png"
-              alt=""
-              class="pro-img h-24 w-24 m-2"
-            />
-            <div class="pro-text m-4">
-              <h2 class="text-2xl">MonoLuck</h2>
-              <p class="text-lg">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Tenetur autem placeat exercitationem perferendis praesentium ut,
-                odio dicta est iure, explicabo suscipit quae ad. Id obcaecati
-                tempore expedita esse, vitae nostrum?
+          <div class="pro-item owl-sm:flex h-72">
+            <div class="pro-img w-3/12 owl-sm:m-2 mx-auto">
+              <img
+                src="../assets/blindstar.png"
+                alt=""
+                class="h-32 w-24 m-2 rounded-2xl"
+              />
+            </div>
+
+            <div class="pro-text owl-sm:m-4 w-9/12 mx-auto -owl-lg:text-center">
+              <h2 class="text-2xl mb-2">
+                <span class="text-golden">LINEBot</span> 法盲救星
+              </h2>
+              <p class="text-md mt-4 h-1/3">
+                優化金融評議中心搜尋系統<br />
+                對使用者輸入的文字進行語意分析<br />
+                加以算分後<br />
+                回傳最近似、最有用的資訊給使用者
               </p>
-              <hr />
-              <p>lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+              <div class="more absolute bottom-0 owl-sm:w-8/12 mx-auto w-9/12">
+                <p class="tech text-sm text-neutral-400">
+                  相關技術<br />Python&emsp;LINEBot Message
+                  API&emsp;MySQL&emsp;Django&emsp;Word2vec&emsp;NER&emsp;K-means
+                </p>
+                <hr />
+                <p class="float-right italic text-sm text-golden">
+                  〝 國立台中科技大學 NUTC
+                </p>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </section>
     <!-- Education -->
-    <section id="Education"></section>
+    <section id="Education">
+      <div class="inner-width">
+        <h1
+          class="section-title text-center pt-12 pb-4 relative text-2xl text-golden"
+        >
+          Education
+        </h1>
+        <div
+          class="divider rounded-md border-t-4 border-neutral-300 border-solid m-auto mb-12"
+        ></div>
+      </div>
+      <div class="edu-content text-center">
+        <div class="hideme text-2xl my-28">
+          <span class="text-golden">National Taichung University</span> of
+          Science and Technology.
+        </div>
+        <div class="hideme my-20">Sep. 2018 - Jun. 2022</div>
+        <div class="hideme text-xl">
+          Information Management<span class="text-golden"
+            >, Bachelor Degree</span
+          >
+        </div>
+      </div>
+    </section>
     <!-- Skills -->
     <section id="Skills"></section>
     <!-- Abilities -->
-    <section id="Abilities"></section>
+    <section id="Abilities">
+      <div class="inner-width">
+        <h1
+          class="section-title text-center pt-12 pb-4 relative text-2xl text-golden"
+        >
+          Language Abilities
+        </h1>
+        <div
+          class="divider rounded-md border-t-4 border-neutral-300 border-solid m-auto mb-12"
+        ></div>
+        <div class="abi-group flex justify-between align-center my-36 mx-32">
+          <div
+            class="abi-item h-96 w-72 bg-neutral-300 hides text-center rounded-md"
+          >
+            <i class="fa-solid fa-medal fa-3x text-golden"></i>
+            <p class="text-golden text-3xl my-20">Taiwanese</p>
+            <p class="italic opacity-60 text-sm w-2/3 mx-auto mt-40">
+              Conversational
+            </p>
+          </div>
+          <div
+            class="abi-item odd mid h-96 w-72 bg-golden hidemid text-center rounded-md"
+          >
+            <i class="fa-solid fa-medal fa-3x text-neutral-300"></i>
+            <p class="text-neutral-300 text-3xl my-20">Chinese</p>
+            <p class="italic opacity-60 text-sm w-2/3 mx-auto mt-40">Native</p>
+          </div>
+          <div
+            class="abi-item h-96 w-72 bg-neutral-300 hides text-center rounded-md"
+          >
+            <i class="fa-solid fa-medal fa-3x text-golden"></i>
+            <p class="text-golden text-3xl my-20">English</p>
+            <p class="italic opacity-60 text-sm w-2/3 mx-auto mt-40">
+              Conversational
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
   </div>
 </template>
 
@@ -302,6 +387,27 @@ $(document).ready(function () {
   $(window).scroll(function () {
     if (this.scrollY > 20) $(".navbar").addClass("stick");
     else $(".navbar").removeClass("stick");
+    $(".hideme").each(function () {
+      var bottom_of_object = $(this).offset().top; // + $(this).outerHeight()
+      var bottom_of_window = $(window).scrollTop() + $(window).height();
+      if (bottom_of_window > bottom_of_object) {
+        $(this).animate({ opacity: "0.5" }, 1500);
+      }
+    });
+    $(".hidemid").each(function () {
+      var bottom_of_object = $(this).offset().top + $(this).outerHeight() / 2;
+      var bottom_of_window = $(window).scrollTop() + $(window).height();
+      if (bottom_of_window > bottom_of_object) {
+        $(this).animate({ opacity: "0.7" }, 500);
+      }
+    });
+    $(".hides").each(function () {
+      var bottom_of_object = $(this).offset().top + $(this).outerHeight();
+      var bottom_of_window = $(window).scrollTop() + $(window).height();
+      if (bottom_of_window > bottom_of_object) {
+        $(this).animate({ opacity: "0.7" }, 1500);
+      }
+    });
   });
   var owl = $(".owl-carousel");
   owl.owlCarousel({
@@ -316,7 +422,7 @@ $(document).ready(function () {
       0: {
         items: 1,
       },
-      768: {
+      1105: {
         items: 2,
       },
     },
@@ -444,10 +550,13 @@ button .bars,
   background: rgba(172, 172, 172, 0.4);
   transition: 0.3s linear;
 }
-/* ######################################################################################################### */
 
 hr {
   border-color: #d5ae7f;
+}
+
+.project {
+  transition: 0.3s linear;
 }
 
 #Project {
@@ -459,29 +568,124 @@ hr {
 }
 
 #Education {
-  height: 500px;
+  height: 650px;
   min-height: 500px;
-  background: url(../assets/bg.jpg) no-repeat center;
+  background: url(../assets/edu.jpg) no-repeat center;
   background-size: cover;
-  //background-attachment: fixed;
+  background-attachment: fixed;
+}
+
+.hideme {
+  opacity: 0;
+  color: #fff;
+}
+
+.hidemid {
+  opacity: 0;
+}
+
+.hides {
+  opacity: 0;
 }
 
 #Skills {
-  height: 500px;
+  height: 750px;
   min-height: 500px;
   background: url(../assets/bg.jpg) no-repeat center;
   background-size: cover;
   //background-attachment: fixed;
 }
 
+/* ######################################################################################################### */
 #Abilities {
-  height: 500px;
+  height: 750px;
   min-height: 500px;
-  background: url(../assets/bg.jpg) no-repeat center;
+  background: url(../assets/abi.jpg) no-repeat center;
   background-size: cover;
-  //background-attachment: fixed;
+  background-attachment: fixed;
 }
 
+.abi-item::after {
+  position: relative;
+  top: -25px;
+  display: inline-block;
+  content: " ";
+  width: 95%;
+  height: 3px;
+  border-radius: 5px;
+  background: linear-gradient(
+    to left,
+    rgba(213, 174, 127, 0.9),
+    transparent,
+    transparent,
+    rgba(213, 174, 127, 0.9) 100%
+  );
+}
+
+.abi-item.odd::after {
+  position: relative;
+  top: -25px;
+  display: inline-block;
+  content: " ";
+  width: 95%;
+  height: 3px;
+  border-radius: 5px;
+  background: linear-gradient(
+    to left,
+    rgba(212, 212, 212, 0.9),
+    transparent,
+    transparent,
+    rgba(212, 212, 212, 0.9) 100%
+  );
+}
+/*
+.abi-item::after {
+  position: relative;
+  right: -90%;
+  display: inline-block;
+  content: " ";
+  width: 3px;
+  height: 90%;
+  border-radius: 5px;
+  margin: 5% 0;
+  background: rgba(213, 174, 127, 0.9);
+}
+
+.abi-item::before {
+  position: relative;
+  left: 10%;
+  display: inline-block;
+  content: " ";
+  width: 3px;
+  height: 90%;
+  border-radius: 5px;
+  margin: 5% 0;
+  background: rgba(213, 174, 127, 0.9);
+}
+
+.abi-item.mid::after {
+  position: relative;
+  right: -90%;
+  display: inline-block;
+  content: " ";
+  width: 3px;
+  height: 90%;
+  border-radius: 5px;
+  margin: 5% 0;
+  background: rgba(212, 212, 212, 0.9);
+}
+
+.abi-item.mid::before {
+  position: relative;
+  left: 10%;
+  display: inline-block;
+  content: " ";
+  width: 3px;
+  height: 90%;
+  border-radius: 5px;
+  margin: 5% 0;
+  background: rgba(212, 212, 212, 0.9);
+} */
 @keyframes textanim {
   33% {
     content: "A Developer";
@@ -494,6 +698,15 @@ hr {
 @screen p {
   #About {
     min-height: 500px;
+  }
+}
+
+@screen -owl-lg {
+  .pro-img {
+    @apply w-36 h-36;
+  }
+  .pro-item {
+    height: 450px;
   }
 }
 
@@ -561,6 +774,9 @@ hr {
   .navbar-menu > .active {
     @apply flex justify-center ml-20;
   }
+  .more .tech {
+    @apply opacity-0;
+  }
 }
 
 @screen -sd {
@@ -585,6 +801,9 @@ hr {
   }
   .box-date-r {
     writing-mode: vertical-rl;
+  }
+  .inner-width {
+    padding: 0 20px;
   }
 }
 </style>
