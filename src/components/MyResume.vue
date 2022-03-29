@@ -332,7 +332,162 @@
       </div>
     </section>
     <!-- Skills -->
-    <section id="Skills"></section>
+    <section id="Skills">
+      <div class="inner-width">
+        <h1
+          class="section-title text-center pt-12 pb-4 relative text-2xl text-golden"
+        >
+          Skills
+        </h1>
+        <div
+          class="divider rounded-md border-t-4 border-neutral-300 border-solid m-auto mb-12"
+        ></div>
+        <div class="ski-row w-full flex justify-between mb-8">
+          <div class="ski-col l w-1/3 px-12 py-10 mx-8 text-center my-auto">
+            <p class="title italic text-golden text-3xl">Programmer</p>
+          </div>
+          <div class="ski-col m w-1/3 px-12 py-10 mx-8 text-center">
+            <i class="fa-solid fa-code fa-2x text-golden"></i>
+            <p class="title text-white text-2xl">Code</p>
+            <div
+              class="divider rounded-md border-t-2 border-neutral-300 border-solid m-auto mt-2 mb-8"
+            ></div>
+            <div class="ski-item flex justify-between items-center mx-auto">
+              <i class="fa-brands fa-html5 text-white w-1/3"></i>
+              <p class="content text-white text-md w-2/3 text-left ml-3.5">
+                HTML5
+              </p>
+            </div>
+            <div class="ski-item flex justify-between items-center mx-auto">
+              <i class="fa-brands fa-css3-alt text-white w-1/3"></i>
+              <p class="content text-white text-md w-2/3 text-left ml-3.5">
+                CSS3
+              </p>
+            </div>
+            <div class="ski-item flex justify-between items-center mx-auto">
+              <i class="fa-solid fa-t text-white w-1/3"></i>
+              <p class="content text-white text-md w-2/3 text-left ml-3.5">
+                Taildwind CSS
+              </p>
+            </div>
+            <div class="ski-item flex justify-between items-center mx-auto">
+              <i class="fa-brands fa-sass text-white w-1/3"></i>
+              <p class="content text-white text-md w-2/3 text-left ml-3.5">
+                SASS
+              </p>
+            </div>
+          </div>
+          <div class="ski-col r w-1/3 px-12 py-10 mx-8 text-center">
+            <i class="fa-brands fa-js fa-2x text-golden"></i>
+            <p class="title text-white text-2xl">Javascript</p>
+            <div
+              class="divider rounded-md border-t-2 border-neutral-300 border-solid m-auto mt-2 mb-8"
+            ></div>
+            <div class="ski-item flex justify-between items-center mx-auto">
+              <i class="fa-brands fa-js text-white w-1/3"></i>
+              <p class="content text-white text-md w-2/3 text-left ml-3.5">
+                ES6
+              </p>
+            </div>
+            <div class="ski-item flex justify-between items-center mx-auto">
+              <i class="fa-solid fa-q text-white w-1/3"></i>
+              <p class="content text-white text-md w-2/3 text-left ml-3.5">
+                jQuery
+              </p>
+            </div>
+            <div class="ski-item flex justify-between items-center mx-auto">
+              <i class="fa-brands fa-react text-white w-1/3"></i>
+              <p class="content text-white text-md w-2/3 text-left ml-3.5">
+                React
+              </p>
+            </div>
+            <div class="ski-item flex justify-between items-center mx-auto">
+              <i class="fa-brands fa-vuejs text-white w-1/3"></i>
+              <p class="content text-white text-md w-2/3 text-left ml-3.5">
+                Vue
+              </p>
+            </div>
+            <div class="ski-item flex justify-between items-center mx-auto">
+              <i class="fa-solid fa-a text-white w-1/3"></i>
+              <p class="content text-white text-md w-2/3 text-left ml-3.5">
+                Axios
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="ski-row w-full flex justify-between mb-8">
+          <div class="ski-col m w-1/3 px-12 py-10 mx-8 text-center">
+            <i class="fa-brands fa-python fa-2x text-golden"></i>
+            <p class="title text-white text-2xl">Python</p>
+            <div
+              class="divider rounded-md border-t-2 border-neutral-300 border-solid m-auto mt-2 mb-8"
+            ></div>
+            <div class="ski-item flex justify-between items-center mx-auto">
+              <i class="fa-solid fa-d text-white w-1/3"></i>
+              <p class="content text-white text-md w-2/3 text-left ml-3.5">
+                Django
+              </p>
+            </div>
+            <div class="ski-item flex justify-between items-center mx-auto">
+              <i class="fa-brands fa-python text-white w-1/3"></i>
+              <p class="content text-white text-md w-2/3 text-left ml-3.5">
+                Python 2&3
+              </p>
+            </div>
+            <div class="ski-item flex justify-between items-center mx-auto">
+              <i class="fa-brands fa-line text-white w-1/3"></i>
+              <p class="content text-white text-md w-2/3 text-left ml-3.5">
+                LINE Bot SDK
+              </p>
+            </div>
+          </div>
+          <div class="ski-col m w-1/3 px-12 py-10 mx-8 text-center">
+            <i class="fa-solid fa-screwdriver-wrench fa-2x text-golden"></i>
+            <p class="title text-white text-2xl">Tools</p>
+            <div
+              class="divider rounded-md border-t-2 border-neutral-300 border-solid m-auto mt-2 mb-8"
+            ></div>
+            <div class="ski-item flex justify-between items-center mx-auto">
+              <i class="fa-brands fa-figma text-white w-1/3"></i>
+              <p class="content text-white text-md w-2/3 text-left ml-3.5">
+                Figma
+              </p>
+            </div>
+            <div class="ski-item flex justify-between items-center mx-auto">
+              <i class="fa-solid fa-c text-white w-1/3"></i>
+              <p class="content text-white text-md w-2/3 text-left ml-3.5">
+                VS Code
+              </p>
+            </div>
+            <div class="ski-item flex justify-between items-center mx-auto">
+              <i class="fa-brands fa-github text-white w-1/3"></i>
+              <p class="content text-white text-md w-2/3 text-left ml-3.5">
+                Github
+              </p>
+            </div>
+          </div>
+          <div class="ski-col r w-1/3 px-12 py-10 mx-8 text-center">
+            <i class="fa-solid fa-ellipsis fa-2x text-golden"></i>
+            <p class="title text-white text-2xl">Other</p>
+            <div
+              class="divider rounded-md border-t-2 border-neutral-300 border-solid m-auto mt-2 mb-8"
+            ></div>
+            <div class="ski-item flex justify-between items-center mx-auto">
+              <i class="fa-brands fa-docker text-white w-1/3"></i>
+              <p class="content text-white text-md w-2/3 text-left ml-3.5">
+                Docker
+              </p>
+            </div>
+            <div class="ski-item flex justify-between items-center mx-auto">
+              <i class="fa-brands fa-markdown text-white w-1/3"></i>
+              <p class="content text-white text-md w-2/3 text-left ml-3.5">
+                Markdown
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
     <!-- Abilities -->
     <section id="Abilities">
       <div class="inner-width">
@@ -344,36 +499,37 @@
         <div
           class="divider rounded-md border-t-4 border-neutral-300 border-solid m-auto mb-12"
         ></div>
-        <div class="abi-group flex justify-between align-center my-36 mx-32">
+        <div class="abi-group flex justify-between align-center my-36 w-full">
           <div
-            class="abi-item h-96 w-72 bg-neutral-300 hides text-center rounded-md"
+            class="abi-item odd mid h-96 w-72 bg-golden hidemid text-center rounded-md mx-2"
+          >
+            <i class="fa-solid odd fa-medal fa-3x text-neutral-300"></i>
+            <p class="type text-neutral-300 text-3xl my-20">Chinese</p>
+            <p class="italic opacity-60 text-sm w-2/3 mx-auto mt-40">Native</p>
+          </div>
+          <div
+            class="abi-item h-96 w-72 bg-neutral-300 hides text-center rounded-md mx-2"
           >
             <i class="fa-solid fa-medal fa-3x text-golden"></i>
-            <p class="text-golden text-3xl my-20">Taiwanese</p>
+            <p class="type text-golden text-3xl my-20">English</p>
             <p class="italic opacity-60 text-sm w-2/3 mx-auto mt-40">
               Conversational
             </p>
           </div>
           <div
-            class="abi-item odd mid h-96 w-72 bg-golden hidemid text-center rounded-md"
-          >
-            <i class="fa-solid fa-medal fa-3x text-neutral-300"></i>
-            <p class="text-neutral-300 text-3xl my-20">Chinese</p>
-            <p class="italic opacity-60 text-sm w-2/3 mx-auto mt-40">Native</p>
-          </div>
-          <div
-            class="abi-item h-96 w-72 bg-neutral-300 hides text-center rounded-md"
+            class="abi-item max-h-96 w-72 bg-neutral-300 hides text-center rounded-md mx-2"
           >
             <i class="fa-solid fa-medal fa-3x text-golden"></i>
-            <p class="text-golden text-3xl my-20">English</p>
+            <p class="type text-golden text-3xl my-20">Japanese</p>
             <p class="italic opacity-60 text-sm w-2/3 mx-auto mt-40">
-              Conversational
+              Begineer
             </p>
           </div>
         </div>
       </div>
     </section>
   </div>
+  q
 </template>
 
 <script>
@@ -398,14 +554,14 @@ $(document).ready(function () {
       var bottom_of_object = $(this).offset().top + $(this).outerHeight() / 2;
       var bottom_of_window = $(window).scrollTop() + $(window).height();
       if (bottom_of_window > bottom_of_object) {
-        $(this).animate({ opacity: "0.7" }, 500);
+        $(this).animate({ opacity: "0.9" }, 500);
       }
     });
     $(".hides").each(function () {
       var bottom_of_object = $(this).offset().top + $(this).outerHeight();
       var bottom_of_window = $(window).scrollTop() + $(window).height();
       if (bottom_of_window > bottom_of_object) {
-        $(this).animate({ opacity: "0.7" }, 1500);
+        $(this).animate({ opacity: "0.9" }, 1000);
       }
     });
   });
@@ -589,17 +745,47 @@ hr {
 }
 
 #Skills {
-  height: 750px;
+  height: 100%;
   min-height: 500px;
-  background: url(../assets/bg.jpg) no-repeat center;
+  background: url(../assets/skill.jpg) no-repeat center;
   background-size: cover;
-  //background-attachment: fixed;
+  background-attachment: fixed;
 }
 
-/* ######################################################################################################### */
+.ski-row {
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.ski-col.m {
+  @apply rounded-lg;
+  background: url(../assets/code.svg) no-repeat rgb(36, 36, 36, 0.4);
+  background-size: auto;
+  background-position: right top;
+}
+
+.ski-col.r {
+  @apply rounded-lg;
+  background: url(../assets/code.svg) no-repeat rgb(36, 36, 36, 0.4);
+  background-size: auto;
+  background-position: right top;
+}
+
+.ski-col.l {
+  @apply rounded-lg;
+}
+
+.ski-col a {
+  fill: #fff;
+}
+
+.ski-item .content {
+  @apply my-1;
+}
+
 #Abilities {
-  height: 750px;
-  min-height: 500px;
+  height: 100%;
+  min-height: 750px;
   background: url(../assets/abi.jpg) no-repeat center;
   background-size: cover;
   background-attachment: fixed;
@@ -638,54 +824,7 @@ hr {
     rgba(212, 212, 212, 0.9) 100%
   );
 }
-/*
-.abi-item::after {
-  position: relative;
-  right: -90%;
-  display: inline-block;
-  content: " ";
-  width: 3px;
-  height: 90%;
-  border-radius: 5px;
-  margin: 5% 0;
-  background: rgba(213, 174, 127, 0.9);
-}
 
-.abi-item::before {
-  position: relative;
-  left: 10%;
-  display: inline-block;
-  content: " ";
-  width: 3px;
-  height: 90%;
-  border-radius: 5px;
-  margin: 5% 0;
-  background: rgba(213, 174, 127, 0.9);
-}
-
-.abi-item.mid::after {
-  position: relative;
-  right: -90%;
-  display: inline-block;
-  content: " ";
-  width: 3px;
-  height: 90%;
-  border-radius: 5px;
-  margin: 5% 0;
-  background: rgba(212, 212, 212, 0.9);
-}
-
-.abi-item.mid::before {
-  position: relative;
-  left: 10%;
-  display: inline-block;
-  content: " ";
-  width: 3px;
-  height: 90%;
-  border-radius: 5px;
-  margin: 5% 0;
-  background: rgba(212, 212, 212, 0.9);
-} */
 @keyframes textanim {
   33% {
     content: "A Developer";
@@ -767,18 +906,6 @@ hr {
   }
 }
 
-@screen -s {
-  .inner-width > .active {
-    @apply w-screen;
-  }
-  .navbar-menu > .active {
-    @apply flex justify-center ml-20;
-  }
-  .more .tech {
-    @apply opacity-0;
-  }
-}
-
 @screen -sd {
   .exp-timeline::after {
     display: none;
@@ -792,6 +919,72 @@ hr {
   .timeline-item {
     @apply w-full;
     transition: 0.3s linear;
+  }
+  .abi-group {
+    @apply flex-col items-center my-10;
+    transition: 0.3s linear;
+  }
+  .abi-item {
+    @apply w-64 h-72 my-2;
+    transition: 0.3s linear;
+  }
+  .abi-item .italic {
+    @apply mt-20;
+  }
+}
+
+@screen -s {
+  .inner-width > .active {
+    @apply w-screen;
+  }
+  .navbar-menu > .active {
+    @apply flex justify-center ml-20;
+  }
+  .more .tech {
+    @apply opacity-0;
+  }
+  .abi-group {
+    @apply mt-20;
+  }
+  .abi-item {
+    @apply bg-transparent my-0;
+    transition: 0.3s linear;
+  }
+  .abi-item p {
+    @apply text-neutral-300;
+  }
+  .abi-item.odd p {
+    @apply text-golden;
+  }
+  .fa-medal {
+    @apply text-neutral-300;
+  }
+  .odd.fa-medal {
+    @apply text-golden;
+  }
+  .abi-item::after {
+    background: linear-gradient(
+      to left,
+      rgba(212, 212, 212, 0.9),
+      transparent,
+      transparent,
+      rgba(212, 212, 212, 0.9) 100%
+    );
+  }
+  .abi-item.odd::after {
+    background: linear-gradient(
+      to left,
+      rgba(213, 174, 127, 0.9),
+      transparent,
+      transparent,
+      rgba(213, 174, 127, 0.9) 100%
+    );
+  }
+  p.type {
+    @apply my-6;
+  }
+  .abi-item .italic {
+    @apply mt-4;
   }
 }
 
