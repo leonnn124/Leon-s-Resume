@@ -21,4 +21,7 @@ export default {
 body {
   font-family: "Raleway", sans-serif;
 }
+html {
+  scroll-behavior: smooth;
+}
 </style>

@@ -1,7 +1,7 @@
 <template>
   <div>
-    <!-- 待修改 // bar展開可點外面收起 大頭照 整理code Q_Q-->
-    <!-- 待增加 // home的往下小箭頭 a link滾動動畫(網頁內PAGE互聯) 放連結(link)-->
+    <!--  // bar展開可點外面收起  整理code -->
+    <!--  // home的往下小箭頭-->
     <nav class="navbar fixed bg-transparent w-full py-4 z-50">
       <div class="inner-width flex items-center justify-between top-0">
         <a href="#" class="Logo w-16 h-11 bg-no-repeat z-50"></a>
@@ -14,32 +14,32 @@
         </button>
         <div class="navbar-menu font-normal active">
           <a
-            href="#"
+            href="#About"
             class="text-base ml-7 text-golden font-medium hover:text-orange-100 active"
             >ABOUT</a
           >
           <a
-            href="#"
+            href="#Experiences"
             class="text-base ml-7 text-golden font-medium hover:text-orange-100 active"
             >EXPERIENCES</a
           >
           <a
-            href="#"
+            href="#Project"
             class="text-base ml-7 text-golden font-medium hover:text-orange-100 active"
             >PROJECT</a
           >
           <a
-            href="#"
+            href="#Education"
             class="text-base ml-7 text-golden font-medium hover:text-orange-100 active"
             >EDUCATION</a
           >
           <a
-            href="#"
+            href="#Skills"
             class="text-base ml-7 text-golden font-medium hover:text-orange-100 active"
             >SKILLS</a
           >
           <a
-            href="#"
+            href="#Abilities"
             class="text-base ml-7 text-golden font-medium hover:text-orange-100 active"
             >ABILITIES</a
           >
@@ -93,7 +93,7 @@
         ></div>
         <div class="about-content flex item-center flex-wrap pt-12">
           <img
-            src="../assets/Zs.png"
+            src="../assets/Leon.jpg"
             alt=""
             class="about-pic w-48 md:rounded-xl mx-12 max-h-64 -md:rounded-full -md:h-24 -md:w-24"
           />
@@ -101,6 +101,7 @@
             <h2 class="text-2xl pb-4 text-neutral-400">Hi ! I'm Leon</h2>
             <p class="text-lg text-justify justify-between flex-wrap mb-10">
               就讀於國立台中科技大學，對於前端有相當大的興趣，喜歡研究新技術應用在自己的作品中，即便遇到挫折也不會輕易放棄。<br /><br />
+              個性積極樂觀，對挑戰和壓力能全力以赴，能自行尋求解決問題之道。<br /><br />
               目前於創科資訊實習中，學習前後端設計，測試、開發、部署流程，專案實戰等，
               不定時分享交流資訊技術。
             </p>
@@ -134,7 +135,8 @@
                   有許多點子改善工作流程、節省精力和時間<br />
                   樂於與公司建立聯繫，維持良好溝通<br />
                   即使身為主管，仍向任何一位同事學習<br />
-                  分享過往工作心得，讓同事一起進步與成長
+                  分享過往工作心得，讓同事一起進步與成長<br />
+                  在工讀經驗中獲得了許多無可取代的成就和能力
                 </p>
               </div>
               <div
@@ -164,6 +166,7 @@
                   版本控制、資訊安全<br />
                   敏捷軟體開發、測試<br />
                   DevOps建置與部署<br />
+                  參與企業開發流程，體驗一連串步驟
                 </p>
               </div>
               <div
@@ -343,146 +346,201 @@
           class="divider rounded-md border-t-4 border-neutral-300 border-solid m-auto mb-12"
         ></div>
         <div class="ski-row w-full flex justify-between mb-8">
-          <div class="ski-col l w-1/3 px-12 py-10 mx-8 text-center my-auto">
+          <div
+            class="ski-col tl w-1/3 px-12 py-10 mx-8 text-center my-auto hides"
+          >
             <p class="title italic text-golden text-3xl">Programmer</p>
           </div>
-          <div class="ski-col m w-1/3 px-12 py-10 mx-8 text-center">
+          <div class="ski-col tm w-1/3 px-12 py-10 mx-8 text-center hides">
             <i class="fa-solid fa-code fa-2x text-golden"></i>
             <p class="title text-white text-2xl">Code</p>
             <div
               class="divider rounded-md border-t-2 border-neutral-300 border-solid m-auto mt-2 mb-8"
             ></div>
-            <div class="ski-item flex justify-between items-center mx-auto">
-              <i class="fa-brands fa-html5 text-white w-1/3"></i>
-              <p class="content text-white text-md w-2/3 text-left ml-3.5">
-                HTML5
-              </p>
-            </div>
-            <div class="ski-item flex justify-between items-center mx-auto">
-              <i class="fa-brands fa-css3-alt text-white w-1/3"></i>
-              <p class="content text-white text-md w-2/3 text-left ml-3.5">
-                CSS3
-              </p>
-            </div>
-            <div class="ski-item flex justify-between items-center mx-auto">
-              <i class="fa-solid fa-t text-white w-1/3"></i>
-              <p class="content text-white text-md w-2/3 text-left ml-3.5">
-                Taildwind CSS
-              </p>
-            </div>
-            <div class="ski-item flex justify-between items-center mx-auto">
-              <i class="fa-brands fa-sass text-white w-1/3"></i>
-              <p class="content text-white text-md w-2/3 text-left ml-3.5">
-                SASS
-              </p>
+            <div class="itemGroup">
+              <div class="ski-item flex justify-between items-center mx-auto">
+                <i class="fa-brands fa-html5 text-white w-1/3"></i>
+                <p class="content text-white text-md w-2/3 text-left ml-3.5">
+                  HTML5
+                </p>
+              </div>
+              <div class="ski-item flex justify-between items-center mx-auto">
+                <i class="fa-brands fa-css3-alt text-white w-1/3"></i>
+                <p class="content text-white text-md w-2/3 text-left ml-3.5">
+                  CSS3
+                </p>
+              </div>
+              <div class="ski-item flex justify-between items-center mx-auto">
+                <i class="w-1/3">
+                  <img
+                    src="../assets/tailwind.png"
+                    class="mx-auto"
+                    style="width: 20px; height: 20px"
+                  />
+                </i>
+                <p class="content text-white text-md w-2/3 text-left ml-3.5">
+                  Taildwind CSS
+                </p>
+              </div>
+              <div class="ski-item flex justify-between items-center mx-auto">
+                <i class="fa-brands fa-sass text-white w-1/3"></i>
+                <p class="content text-white text-md w-2/3 text-left ml-3.5">
+                  SASS
+                </p>
+              </div>
             </div>
           </div>
-          <div class="ski-col r w-1/3 px-12 py-10 mx-8 text-center">
+          <div class="ski-col tr w-1/3 px-12 py-10 mx-8 text-center hides">
             <i class="fa-brands fa-js fa-2x text-golden"></i>
             <p class="title text-white text-2xl">Javascript</p>
             <div
               class="divider rounded-md border-t-2 border-neutral-300 border-solid m-auto mt-2 mb-8"
             ></div>
-            <div class="ski-item flex justify-between items-center mx-auto">
-              <i class="fa-brands fa-js text-white w-1/3"></i>
-              <p class="content text-white text-md w-2/3 text-left ml-3.5">
-                ES6
-              </p>
-            </div>
-            <div class="ski-item flex justify-between items-center mx-auto">
-              <i class="fa-solid fa-q text-white w-1/3"></i>
-              <p class="content text-white text-md w-2/3 text-left ml-3.5">
-                jQuery
-              </p>
-            </div>
-            <div class="ski-item flex justify-between items-center mx-auto">
-              <i class="fa-brands fa-react text-white w-1/3"></i>
-              <p class="content text-white text-md w-2/3 text-left ml-3.5">
-                React
-              </p>
-            </div>
-            <div class="ski-item flex justify-between items-center mx-auto">
-              <i class="fa-brands fa-vuejs text-white w-1/3"></i>
-              <p class="content text-white text-md w-2/3 text-left ml-3.5">
-                Vue
-              </p>
-            </div>
-            <div class="ski-item flex justify-between items-center mx-auto">
-              <i class="fa-solid fa-a text-white w-1/3"></i>
-              <p class="content text-white text-md w-2/3 text-left ml-3.5">
-                Axios
-              </p>
+            <div class="itemGroup">
+              <div class="ski-item flex justify-between items-center mx-auto">
+                <i class="fa-brands fa-js text-white w-1/3"></i>
+                <p class="content text-white text-md w-2/3 text-left ml-3.5">
+                  ES6
+                </p>
+              </div>
+              <div class="ski-item flex justify-between items-center mx-auto">
+                <i class="w-1/3">
+                  <img
+                    src="../assets/jq.png"
+                    class="mx-auto"
+                    style="width: 16px; height: 16px"
+                  />
+                </i>
+                <p class="content text-white text-md w-2/3 text-left ml-3.5">
+                  jQuery
+                </p>
+              </div>
+              <div class="ski-item flex justify-between items-center mx-auto">
+                <i class="fa-brands fa-react text-white w-1/3"></i>
+                <p class="content text-white text-md w-2/3 text-left ml-3.5">
+                  React
+                </p>
+              </div>
+              <div class="ski-item flex justify-between items-center mx-auto">
+                <i class="fa-brands fa-vuejs text-white w-1/3"></i>
+                <p class="content text-white text-md w-2/3 text-left ml-3.5">
+                  Vue
+                </p>
+              </div>
+              <div class="ski-item flex justify-between items-center mx-auto">
+                <i class="w-1/3">
+                  <img
+                    src="../assets/axios.png"
+                    class="mx-auto"
+                    style="width: 20px; height: 20px"
+                  />
+                </i>
+                <p class="content text-white text-md w-2/3 text-left ml-3.5">
+                  Axios
+                </p>
+              </div>
             </div>
           </div>
         </div>
         <div class="ski-row w-full flex justify-between mb-8">
-          <div class="ski-col m w-1/3 px-12 py-10 mx-8 text-center">
+          <div class="ski-col bl w-1/3 px-12 py-10 mx-8 text-center hides">
             <i class="fa-brands fa-python fa-2x text-golden"></i>
             <p class="title text-white text-2xl">Python</p>
             <div
               class="divider rounded-md border-t-2 border-neutral-300 border-solid m-auto mt-2 mb-8"
             ></div>
-            <div class="ski-item flex justify-between items-center mx-auto">
-              <i class="fa-solid fa-d text-white w-1/3"></i>
-              <p class="content text-white text-md w-2/3 text-left ml-3.5">
-                Django
-              </p>
-            </div>
-            <div class="ski-item flex justify-between items-center mx-auto">
-              <i class="fa-brands fa-python text-white w-1/3"></i>
-              <p class="content text-white text-md w-2/3 text-left ml-3.5">
-                Python 2&3
-              </p>
-            </div>
-            <div class="ski-item flex justify-between items-center mx-auto">
-              <i class="fa-brands fa-line text-white w-1/3"></i>
-              <p class="content text-white text-md w-2/3 text-left ml-3.5">
-                LINE Bot SDK
-              </p>
+            <div class="itemGroup">
+              <div class="ski-item flex justify-between items-center mx-auto">
+                <i class="w-1/3">
+                  <img
+                    src="../assets/django.png"
+                    class="mx-auto"
+                    style="width: 20px; height: 20px"
+                  />
+                </i>
+                <p class="content text-white text-md w-2/3 text-left ml-3.5">
+                  Django
+                </p>
+              </div>
+              <div class="ski-item flex justify-between items-center mx-auto">
+                <i class="fa-brands fa-python text-white w-1/3"></i>
+                <p class="content text-white text-md w-2/3 text-left ml-3.5">
+                  Python 2&3
+                </p>
+              </div>
+              <div class="ski-item flex justify-between items-center mx-auto">
+                <i class="fa-brands fa-line text-white w-1/3"></i>
+                <p class="content text-white text-md w-2/3 text-left ml-3.5">
+                  LINE Bot SDK
+                </p>
+              </div>
             </div>
           </div>
-          <div class="ski-col m w-1/3 px-12 py-10 mx-8 text-center">
+
+          <div class="ski-col bm w-1/3 px-12 py-10 mx-8 text-center hides">
             <i class="fa-solid fa-screwdriver-wrench fa-2x text-golden"></i>
             <p class="title text-white text-2xl">Tools</p>
             <div
               class="divider rounded-md border-t-2 border-neutral-300 border-solid m-auto mt-2 mb-8"
             ></div>
-            <div class="ski-item flex justify-between items-center mx-auto">
-              <i class="fa-brands fa-figma text-white w-1/3"></i>
-              <p class="content text-white text-md w-2/3 text-left ml-3.5">
-                Figma
-              </p>
-            </div>
-            <div class="ski-item flex justify-between items-center mx-auto">
-              <i class="fa-solid fa-c text-white w-1/3"></i>
-              <p class="content text-white text-md w-2/3 text-left ml-3.5">
-                VS Code
-              </p>
-            </div>
-            <div class="ski-item flex justify-between items-center mx-auto">
-              <i class="fa-brands fa-github text-white w-1/3"></i>
-              <p class="content text-white text-md w-2/3 text-left ml-3.5">
-                Github
-              </p>
+            <div class="itemGroup">
+              <div class="ski-item flex justify-between items-center mx-auto">
+                <i class="fa-brands fa-figma text-white w-1/3"></i>
+                <p class="content text-white text-md w-2/3 text-left ml-3.5">
+                  Figma
+                </p>
+              </div>
+              <div class="ski-item flex justify-between items-center mx-auto">
+                <i class="w-1/3">
+                  <img
+                    src="../assets/vsc.png"
+                    class="mx-auto"
+                    style="width: 16px; height: 16px"
+                  />
+                </i>
+                <p class="content text-white text-md w-2/3 text-left ml-3.5">
+                  VS Code
+                </p>
+              </div>
+              <div class="ski-item flex justify-between items-center mx-auto">
+                <i class="fa-brands fa-github text-white w-1/3"></i>
+                <p class="content text-white text-md w-2/3 text-left ml-3.5">
+                  Github
+                </p>
+              </div>
             </div>
           </div>
-          <div class="ski-col r w-1/3 px-12 py-10 mx-8 text-center">
+          <div class="ski-col br w-1/3 px-12 py-10 mx-8 text-center hides">
             <i class="fa-solid fa-ellipsis fa-2x text-golden"></i>
             <p class="title text-white text-2xl">Other</p>
             <div
               class="divider rounded-md border-t-2 border-neutral-300 border-solid m-auto mt-2 mb-8"
             ></div>
-            <div class="ski-item flex justify-between items-center mx-auto">
-              <i class="fa-brands fa-docker text-white w-1/3"></i>
-              <p class="content text-white text-md w-2/3 text-left ml-3.5">
-                Docker
-              </p>
-            </div>
-            <div class="ski-item flex justify-between items-center mx-auto">
-              <i class="fa-brands fa-markdown text-white w-1/3"></i>
-              <p class="content text-white text-md w-2/3 text-left ml-3.5">
-                Markdown
-              </p>
+            <div class="itemGroup">
+              <div class="ski-item flex justify-between items-center mx-auto">
+                <i class="fa-brands fa-docker text-white w-1/3"></i>
+                <p class="content text-white text-md w-2/3 text-left ml-3.5">
+                  Docker
+                </p>
+              </div>
+              <div class="ski-item flex justify-between items-center mx-auto">
+                <i class="fa-brands fa-markdown text-white w-1/3"></i>
+                <p class="content text-white text-md w-2/3 text-left ml-3.5">
+                  Markdown
+                </p>
+              </div>
+              <div class="ski-item flex justify-between items-center mx-auto">
+                <i class="w-1/3">
+                  <img
+                    src="../assets/sql.png"
+                    class="mx-auto"
+                    style="width: 20px; height: 20px"
+                  />
+                </i>
+                <p class="content text-white text-md w-2/3 text-left ml-3.5">
+                  MySQL
+                </p>
+              </div>
             </div>
           </div>
         </div>
@@ -528,8 +586,48 @@
         </div>
       </div>
     </section>
+    <!-- Footer -->
+    <footer class="bg-neutral-900">
+      <div class="inner-width my-10">
+        <div class="contacts">
+          <div class="icon">
+            <div class="sm w-full text-center pt-10 pb-6">
+              <a
+                href="#"
+                class="text-xl my-3 mx-3 text-golden font-medium hover:text-orange-100 fab fa-facebook-f"
+              ></a>
+              <a
+                href="#"
+                class="text-xl my-3 mx-3 text-golden font-medium hover:text-orange-100 fab fa-twitter"
+              ></a>
+              <a
+                href="#"
+                class="text-xl my-3 mx-3 text-golden font-medium hover:text-orange-100 fab fa-instagram"
+              ></a>
+              <a
+                href="#"
+                class="text-xl my-3 mx-3 text-golden font-medium hover:text-orange-100 fab fa-linkedin-in"
+              ></a>
+              <a
+                href="#"
+                class="text-xl my-3 mx-3 text-golden font-medium hover:text-orange-100 fab fa-youtube"
+              ></a>
+            </div>
+          </div>
+          <div class="info pb-10">
+            <div class="phone flex justify-center my-2">
+              <i class="fa-solid fa-phone text-golden mx-4"></i>
+              <p class="text-golden text-sm">+886 968 600 228</p>
+            </div>
+            <div class="email flex justify-center my-2">
+              <i class="fa-solid fa-envelope text-golden mx-4"></i>
+              <p class="text-golden text-sm">leonlin124@gmail.com</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
   </div>
-  q
 </template>
 
 <script>
@@ -565,6 +663,7 @@ $(document).ready(function () {
       }
     });
   });
+
   var owl = $(".owl-carousel");
   owl.owlCarousel({
     items: 2,
@@ -588,6 +687,10 @@ $(document).ready(function () {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style lang="postcss" scoped>
+.navbar-menu > a {
+  transition: 0.3s padding ease-in-out;
+}
+
 .solid {
   transition: background-color 0.5s ease 0s;
 }
@@ -604,7 +707,6 @@ $(document).ready(function () {
 }
 
 nav,
-.navbar-menu a,
 button .bars,
 .container {
   transition: 0.3s linear;
@@ -757,22 +859,43 @@ hr {
   background-position: 50% 50%;
 }
 
-.ski-col.m {
+.ski-col.tm {
   @apply rounded-lg;
-  background: url(../assets/code.svg) no-repeat rgb(36, 36, 36, 0.4);
-  background-size: auto;
+  background: url(../assets/code.png) no-repeat rgb(36, 36, 36, 0.7);
+  background-size: 150px 120px;
   background-position: right top;
 }
 
-.ski-col.r {
+.ski-col.tr {
   @apply rounded-lg;
-  background: url(../assets/code.svg) no-repeat rgb(36, 36, 36, 0.4);
-  background-size: auto;
+  background: url(../assets/js.png) no-repeat rgb(36, 36, 36, 0.7);
+  background-size: 150px 120px;
   background-position: right top;
 }
 
-.ski-col.l {
+.ski-col.tl {
   @apply rounded-lg;
+}
+
+.ski-col.bm {
+  @apply rounded-lg;
+  background: url(../assets/tool.png) no-repeat rgb(36, 36, 36, 0.7);
+  background-size: 150px 120px;
+  background-position: right top;
+}
+
+.ski-col.br {
+  @apply rounded-lg;
+  background: url(../assets/dot.png) no-repeat rgb(36, 36, 36, 0.7);
+  background-size: 150px 120px;
+  background-position: right top;
+}
+
+.ski-col.bl {
+  @apply rounded-lg;
+  background: url(../assets/python.png) no-repeat rgb(36, 36, 36, 0.7);
+  background-size: 150px 120px;
+  background-position: right top;
 }
 
 .ski-col a {
@@ -847,6 +970,19 @@ hr {
   .pro-item {
     height: 450px;
   }
+  .ski-row {
+    @apply block px-20 m-0;
+  }
+  .ski-col {
+    @apply w-full mx-0 py-4 my-8;
+    transition: 0.3s linear;
+  }
+  .itemGroup {
+    @apply flex justify-between items-center;
+  }
+  .ski-item {
+    @apply w-4/12;
+  }
 }
 
 @screen -md {
@@ -904,6 +1040,10 @@ hr {
     @apply py-2 px-5 table relative mb-8 -mr-6 ml-auto z-30;
     box-shadow: 15px 15px 23px 1px rgba(216, 174, 127, 42%);
   }
+  .about-pic {
+    @apply w-20;
+    transition: 0.1s linear;
+  }
 }
 
 @screen -sd {
@@ -930,6 +1070,19 @@ hr {
   }
   .abi-item .italic {
     @apply mt-20;
+  }
+  .itemGroup {
+    @apply inline-block w-full;
+  }
+  .ski-item {
+    @apply w-full;
+    transition: 0.3s linear;
+  }
+  .ski-item i {
+    @apply w-1/4;
+  }
+  .ski-item p {
+    @apply w-1/2;
   }
 }
 
@@ -997,6 +1150,15 @@ hr {
   }
   .inner-width {
     padding: 0 20px;
+  }
+}
+
+@screen -ss {
+  .ski-row {
+    @apply p-0;
+  }
+  .ski-item {
+    transition: 0.3s linear;
   }
 }
 </style>
