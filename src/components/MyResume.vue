@@ -239,7 +239,7 @@
               </p>
               <div class="more absolute bottom-0 owl-sm:w-8/12 mx-auto w-9/12">
                 <p class="tech text-sm text-neutral-400">
-                  相關技術<br />React.js&emsp;Material-UI&emsp;Axios&emsp;PHP
+                  相關技術<br />React.js&emsp;Material-UI&emsp;Axios&emsp;Laravel
                 </p>
                 <hr />
                 <p class="float-right italic text-sm text-golden">
