@@ -623,6 +623,24 @@
               <i class="fa-solid fa-envelope text-golden mx-4"></i>
               <p class="text-golden text-sm">leonlin124@gmail.com</p>
             </div>
+            <div
+              class="board flex justify-center pt-12 text-golden text-sm relative w-1/12 mx-auto"
+            >
+              <a href="/board">
+                <span>M</span>
+                <span>e</span>
+                <span>s</span>
+                <span>s</span>
+                <span>a</span>
+                <span>g</span>
+                <span>e</span>
+                <span>B</span>
+                <span>o</span>
+                <span>a</span>
+                <span>r</span>
+                <span>d</span>
+              </a>
+            </div>
           </div>
         </div>
       </div>
@@ -946,6 +964,77 @@ hr {
     transparent,
     rgba(212, 212, 212, 0.9) 100%
   );
+}
+
+.info > .board::after {
+  content: "";
+  position: absolute;
+  width: 12px;
+  height: 3px;
+  background-color: #d5ae7f;
+  border-radius: 10px;
+  bottom: 3px;
+  left: -24px;
+  animation: trans 1.1s linear infinite;
+  opacity: 1;
+  z-index: 999;
+}
+
+.info > .board > a > span {
+  display: inline-block;
+  animation: wave 1.1s linear infinite;
+}
+
+.info > .board > a > span:nth-child(2) {
+  animation-delay: 50ms;
+}
+.info > .board > a > span:nth-child(3) {
+  animation-delay: 100ms;
+}
+.info > .board > a > span:nth-child(4) {
+  animation-delay: 150ms;
+}
+.info > .board > a > span:nth-child(5) {
+  animation-delay: 200ms;
+}
+.info > .board > a > span:nth-child(6) {
+  animation-delay: 250ms;
+}
+.info > .board > a > span:nth-child(7) {
+  animation-delay: 300ms;
+}
+.info > .board > a > span:nth-child(8) {
+  animation-delay: 350ms;
+}
+.info > .board > a > span:nth-child(9) {
+  animation-delay: 400ms;
+}
+.info > .board > a > span:nth-child(10) {
+  animation-delay: 450ms;
+}
+.info > .board > a > span:nth-child(11) {
+  animation-delay: 500ms;
+}
+.info > .board > a > span:nth-child(12) {
+  animation-delay: 550ms;
+}
+
+@keyframes wave {
+  50% {
+    transform: translateY(-8px);
+  }
+}
+
+@keyframes trans {
+  20% {
+    opactiy: 1;
+  }
+  80% {
+    opactiy: 1;
+  }
+  100% {
+    left: calc(100% + 12px);
+  }
 }
 
 @keyframes textanim {
